@@ -56,3 +56,91 @@ h1.Logo {
   box-shadow: none;
   transform: translateY(0);
 }
+
+/* Styles for Upcoming Event */
+
+.upcoming-event {
+  margin-top: 80px; /* Increased margin to add more space */
+  text-align: center;
+}
+
+.upcoming-event h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.event-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.event-description {
+  font-size: 18px;
+}
+
+.event-description h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+
+.button-small {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Kode Mono", monospace;
+  font-size: 14px; /* Smaller font size */
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 40px; /* Smaller height */
+  min-width: 0;
+  outline: none;
+  padding: 8px 16px; /* Smaller padding */
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto; /* Ensure the width is auto */
+  will-change: transform;
+}
+
+.button-small:disabled {
+  pointer-events: none;
+}
+
+.button-small:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-small:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* Contact Link */
+
+.contact-link {
+  position: fixed;
+  bottom: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  color: #000000; /* Text color */
+  font-family: "Kode Mono", monospace; /* Use the same font */
+  font-size: 14px; /* Adjust font size */
+  text-decoration: none; /* Remove underline */
+}
+
+.contact-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
