@@ -144,3 +144,9 @@ h1.Logo {
 .contact-link:hover {
   text-decoration: underline; /* Underline on hover */
 }
+
+/* Event Image */ 
+.event-header {
+  width: 250px; /* Adjust the width */
+  height: auto; /* Maintain aspect ratio */
+}
